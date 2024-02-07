@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstarp/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Favourites Page</title>
+  </head>
+  <body>
+    <!-- -----------------------------------navbar-1------------------------------------------------- -->
+    <nav class="navbar first-nav navbar-expand-sm justify-content-end p-0">
+      <ul class="navbar-nav d-flex flex-row" id="links">
+        <li class="nav-item">
+          <a class="nav-link text-white me-4" href="./login.html">Sign in</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white me-4" href="./register.html">Sign up</a>
+        </li>
+      </ul>
+      <ul id="user_info">
+        <li class="nav-item">
+          <a class="nav-link text-white mt-lg-3" href="./profile.html" id="user"></a>
+        </li>
+        <li>
+          <a class="nav-link text-white mt-lg-3" href="./favourites.html"
+            >Favourites</a
+          >
+        </li>
+        <li class="shopping_cart mt-md-4 mt-2 me-3">
+          <i class="fas fa-shopping-cart text-white"></i>
+          <span class="badge"></span>
+
+          <div class="carts_products h-vh-100">
+            <div class="h-vh-100"></div>
+            <a href="cartproducts.html" class="nav-link text-white"
+              >view all products</a
+            >
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white mt-lg-3" href="#" id="logout"
+            >Log out
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- -----------------------------------navbar-2------------------------------------------------- -->
+    <nav class="navbar second-nav navbar-expand-md py-1 bg-light">
+      <div class="container-fluid">
+        <a
+          class="navbar-brand ms-3 fw-bold fst-italic fs-3 text-dark"
+          href="./index.html"
+        >
+          <i
+            class="fab fa-galactic-senate logoIcon me-2 me-0 fs-1 fa-magento text-warning"
+          ></i
+          >f<span class="text-warning">o</span>x</a
+        >
+        <button
+          class="navbar-toggler shadow-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars text-dark"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-anime-item">
+              <a
+                class="nav-link active px-2 px-lg-3 text-dark"
+                aria-current="page"
+                href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle px-2 px-lg-3 text-dark"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Blog</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Link</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Another link</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">A third link</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 px-lg-3 text-dark" href="#">Services</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle px-2 px-lg-3 text-dark"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Pages</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Link</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Another link</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">A third link</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item px-2 px-lg-3">
+              <a class="nav-link text-dark" href="#">About us</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2 shadow-none border-dark"
+              type="text"
+              placeholder="Search"
+            />
+            <button class="btn btn-dark border-0 shadow-none" type="button">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- -----------------------------------main section------------------------------------------------- -->
+    <section class="container mt-5">
+      <div class="second-parent">
+        <div class="item-parent1">
+        </div>
+
+        <div class="item-parent2 d-md-flex justify-content-between">
+        </div>
+
+        <div class="item-parent3 d-md-flex justify-content-between">
+        </div>
+      </div>
+      <div class="noProducts"></div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="./js/cartMenu.js"></script>
+    <script src="./js/favourites.js"></script>
+    <script src="./js/user.js"></script>
+  </body>
+</html>

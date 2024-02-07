@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstarp/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.css" />
+    <link rel="stylesheet" href="./css/regLog.css" />
+    <title>Register</title>
+  </head>
+  <body>
+        <!-- -----------------------------------navbar-1------------------------------------------------- -->
+        <nav class="navbar first-nav navbar-expand-sm justify-content-end">
+          
+        </nav>
+    <!-- -----------------------------------navbar-2------------------------------------------------- -->
+    <nav class="navbar second-nav navbar-expand-md py-1 bg-light ">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-3 fw-bold fst-italic fs-3 text-dark" href="./index.html">
+          <i
+            class="fab fa-galactic-senate logoIcon me-2 me-0 fs-1 fa-magento text-warning"
+          ></i
+          >f<span class="text-warning">o</span>x</a
+        >
+        <button
+          class="navbar-toggler shadow-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars text-dark"></i>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-anime-item">
+              <a
+                class="nav-link active px-2 px-lg-3 text-dark"
+                aria-current="page"
+                href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle px-2 px-lg-3 text-dark"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Blog</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Link</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Another link</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">A third link</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 px-lg-3 text-dark" href="#">Services</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle px-2 px-lg-3 text-dark"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Pages</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Link</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Another link</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">A third link</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item px-2 px-lg-3">
+              <a class="nav-link text-dark" href="#">About us</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2 shadow-none border-dark" type="text" placeholder="Search" />
+            <button class="btn btn-dark border-0 shadow-none" type="button">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- -----------------------------------main section------------------------------------------------- -->
+    <section class="container-fluid section-form d-flex">
+    <div class="input-form ">
+      <h2>Register form</h2>
+      <form action="" class="d-flex flex-column ">
+        <input type="text" placeholder="Enter Username" id="username" required autocomplete="off">
+        <input type="email" placeholder="Enter Email" id="email" required autocomplete="off">
+        <input type="password" placeholder="Enter Password" id="password" required autocomplete="off">
+        <a href="./login.html" class="text-decoration-none ">Already have an account</a>
+        <input type="submit" value="Sign up" id="sign_up">
+      </form>
+    </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="./js/register.js"></script>
+  </body>
+</html>
